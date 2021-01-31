@@ -40,7 +40,7 @@ derive_more = "0.99.2"
 futures-util = { version = "0.3.5", default-features = false }
 futures-channel = { version = "0.3.5", default-features = false }
 redis-async = { version = "0.8", default-features = false, features = ["tokio10"] }
-actix-rt = "2.0.0-beta.2"
+actix-rt = "2.0.0-beta.3"
 time = "0.2.9"
 tokio = "1"
 tokio-util = "0.6"
@@ -48,7 +48,7 @@ tokio-util = "0.6"
 # actix-session
 actix-web = { version = "4.0.0-beta.1", default_features = false, optional = true }
 actix-http = { version = "3.0.0-beta.1", optional = true }
-actix-service = { version = "2.0.0-beta.2", optional = true }
+actix-service = { version = "2.0.0-beta.3", optional = true }
 actix-session = { path="../actix-session", optional = true }
 rand = { version = "0.8", optional = true }
 serde = { version = "1.0.118", optional = true }
