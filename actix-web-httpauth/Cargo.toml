@@ -26,5 +26,5 @@ futures-util = { version = "0.3", default-features = false }
 
 [dev-dependencies]
 actix-cors = {path="../actix-cors"}
-actix-rt = "2.0.0-beta.3"
-actix-service = "2.0.0-beta.3"
+actix-rt = "2.0.0"
+actix-service = "2.0.0-beta.4"
